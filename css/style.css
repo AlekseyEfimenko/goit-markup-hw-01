@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: white;
     color: #434455;
+    width: 1440px;
 }
 
 ul {
@@ -10,5 +11,139 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+header {
+    height: 72px;
+    padding: 24px 156px;
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    font-family: "Raleway";
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.6667;
+    display: inherit;
+}
+
+.logo-header {
+    color: #2e2f42;
+}
+
+.logo-footer {
+    color: #f4f4fd;
+}
+
+.navigation-menu {
+    display: flex;
+    height: 24px;
+    margin: 0px 332px 0px 36px;
+    gap: 40px;
+}
+
+.navigation-item {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.navigation-item:hover,
+.contacts-item:hover,
+.navigation-item:active {
+    color: #404bbf;
+}
+
+.contacts {
+    display: flex;
+    height: 24px;
+    gap: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contacts-item {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: inherit;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color: #2e2f42;
+}
+
+.banner-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 188px;
+    width: 496px;
+    margin-top: 0px;
+}
+
+.banner-button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border-style: none;
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    line-height: normal;
+}
+
+.banner-button:focus {
+    background: #404bbf;
+}
+
+.adventages {
+    padding: 120px 156px;
+}
+
+.adventages-list {
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.adventages-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+}
+
+.adventages-item > h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin: inherit;
+    color: #2e2f42;
+}
+
+.adventages-item > p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: inherit;
 }
