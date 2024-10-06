@@ -147,3 +147,64 @@ header {
     letter-spacing: 0.02em;
     margin: inherit;
 }
+
+.staff {
+    height: 732px;
+    padding: 120px 156px;
+    background: #f4f4fd;
+}
+
+.staff-title {
+    margin: 0px;
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.staff-list {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.staff-item {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.staff-item-content {
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.staff-item h3 {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.staff-item p {
+    margin: 0px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio {
+    padding: 120px 156px;
+}
