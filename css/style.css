@@ -139,6 +139,10 @@ header {
     padding: 120px 156px;
 }
 
+.adventages-title {
+    display: none;
+}
+
 .adventages-list {
     display: flex;
     gap: 24px;
